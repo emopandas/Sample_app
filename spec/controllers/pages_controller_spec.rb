@@ -1,6 +1,6 @@
-require 'spec_helper'
+require 'spec_helper.rb'
 
-describe PagesController do
+describe PagesController, :type => :controller do
 
   describe "GET 'home'" do
     it "returns http success" do
